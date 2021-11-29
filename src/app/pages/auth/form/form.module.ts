@@ -6,5 +6,6 @@ import { RouterModule } from '@angular/router';
 @NgModule({
   declarations: [FormComponent],
   imports: [CommonModule, RouterModule],
+  exports: [FormComponent],
 })
 export class FormModule {}
